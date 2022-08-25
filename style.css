@@ -3,6 +3,13 @@
   padding: 0;
 }
 
+.border {
+  border: #2D2C2A solid 1px;
+  border-radius: 10px;
+  width: 300px;
+  margin: auto;
+}
+
 body {
   background-color: #FFEDD5;
   font-family: 'Roboto', sans-serif;
@@ -43,7 +50,8 @@ section h2 {
   padding: 8px 16px;
   text-align: center;
   font-size: 18px;
-
+  border: #2D2C2A solid 1px;
+  
   margin-bottom: 24px;
 }
 
@@ -71,13 +79,17 @@ li .details {
   margin-bottom: 8px;
   font-size: 16px;
   line-height: 19px;
+  text-decoration-line: underline;
 }
 
 h1, h2, h3, .price {
   font-family: Roboto Serif, serif;
   text-transform: uppercase;
   color: #2D2C2A;
+  
 }
+
+/*** IMAGES ***/
 
 .coffe {
   background-image: url(./coffe2.png);
